@@ -2,5 +2,10 @@
 name = "syspeek"
 version = "0.1.0"
 edition = "2024"
+description = "A blazingly fast system monitoring tool"
+license = "MIT"
 
 [dependencies]
+sysinfo = "0.33"
+clap = { version = "4", features = ["derive"] }
+colored = "3"
